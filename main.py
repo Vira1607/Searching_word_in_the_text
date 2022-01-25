@@ -7,7 +7,7 @@ def search(t, w):
     return a
 
 
-text = input('')
-word = input('')
+text = input('Enter the text: ')
+word = input('Enter the word: ')
 
 print(search(text, word))
